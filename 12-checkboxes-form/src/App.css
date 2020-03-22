@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+/*
+ * Layout
+ */
+#root {
+  height: 100vh;
+}
+
+#sidebar {
+  float: left;
+  width: 300px;
+  height: 100%;
+  background: #262626;
+}
+
+.content {
+  float: right;
+  width: 78.2%;
+  height: 100%;
+}
+
+/*
+ * Sidebar
+ */
+ #logo {
+  color: #c6c6c6;
+  margin: 30px 10px 30px 10px;
+}
+
+/*
+ * Navigation Bar
+ */
+nav ul {
+  text-align: left;
+  list-style-type: none;
+  margin: 40px 0px 40px 0px;
+  padding: 0px 0px 0px 0px;
+}
+
+nav ul li {
+  margin:10px 0px 10px 0px;
+  padding:10px 10px 10px 80px;
+  font-weight: 600;
+  font-size: 14px;
+  display: block;
+}
+
+nav ul li a:link {
+  color: #b8b7ae;
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: #c6c6c6;
+  text-decoration: none;
+}
+
+nav ul li:hover {
+  background: #393939;
+}
+
+.fas {
+  padding: 0px 10px 0px 0px;
+  color: "#b8b7ae";
+}
+
+.content h1 {
+  text-align: left;
+  color: #555555;
+  margin: 0px 10px 10px 10px;
+}
+
+/* 
+ * Page1
+ */
+#form {
+  text-align: left;
+  margin: 60px 0px 0px 0px
+}
+
+#form ul li {
+  list-style-type: none;
+  margin: 40px 0px 40px 0px
+}
+
+#form ul li [type=submit] {
+  margin: 80px 0px 0px 0px;
+  border: 1px solid #0366EE;
+  border-radius: 4px;
+  background: #0366EE;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  padding: .75rem 1.8rem;
+}
+
+#form ul li [type="checkbox"] {
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(1.2); /* IE */
+  -moz-transform: scale(1.2); /* FF */
+  -webkit-transform: scale(1.2); /* Safari and Chrome */
+  -o-transform: scale(1.2); /* Opera */
+  transform: scale(1.2);
+   margin: 0px 20px 0px 0px;
+}
+
+/* 
+ * Home Page
+ */
+.content .content-area {
+}
+
+.content .header {
+  height: 140px;
+  background-color: #f3f3f3;
+}
+
+.content .content-area .description {
+  text-align: left;
+  width: 36%;
+  float: left;
+  padding: 50px 30px 50px 30px;
+}
+
+.content .content-area .description h2 {
+  text-align: center;
+  color: #555555;
+}
+
+.content .content-area [type=submit] {
+  margin: 40px 0px 0px 10px;
+  border: 1px solid #0366EE;
+  border-radius: 4px;
+  background: #0366EE;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  padding: .75rem 1.8rem;
+}
+
+.content .content-area .billboard {
+  width: 56%;
+  float: right;
+  padding: 20px 10px 20px 10px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #525252;
+  margin: 0px 30px 0px 30px;
+}
+
+.content .footer {
+  height: 100px;
+  background-color: #f3f3f3;
+}
+
+/* 
+ * Fix float elements
+ */
+.clearfix:after {
+  content:"\0020";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+  overflow:hidden;
+}
