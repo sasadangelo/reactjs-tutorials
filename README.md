@@ -2,6 +2,6 @@
 
 This is a set of tutorials I created to learn how to use ReactJS.
 
-# Tutorial 1: Home page
+# Tutorial 1: Hello React
 
-Create an home page with a sidebar, footer, top menu, and main content. Check out the tutorial at [this page](https://github.com/sasadangelo/reactjs-tutorials/tree/master/home).
+Simple "Hello World" React application. [Click here](https://github.com/sasadangelo/reactjs-tutorials/tree/master/1-hello-react) to see the tutorial.
