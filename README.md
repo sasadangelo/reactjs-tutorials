@@ -10,3 +10,6 @@ Simple "Hello World" React application. [Click here](https://github.com/sasadang
 
 This is your first React.js application. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). [Click here](https://github.com/sasadangelo/reactjs-tutorials/tree/master/2-first-react-app) to see the tutorial.
 
+## Tutorial 3: Modify First React Application
+
+Modify your first React.js application to print "Hello, React". [Click here](https://github.com/sasadangelo/reactjs-tutorials/tree/master/3-hello-react-app) to see the tutorial.
