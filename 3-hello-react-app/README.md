@@ -1,4 +1,4 @@
-# Tutorial First React Application
+# Tutorial Modify First React Application
 
 Modify default "React Application" to print "Hello, React" in your browser.
 
